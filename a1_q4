@@ -8,7 +8,7 @@ int main() {
     cin>>l;
     cout<<"enter upper limit";
     cin>>h;
-    for (j=l,j<=h,j++)
+    for (j=l;j<=h;j++){
         for (i = 2; i <= j/2; i++) {
             if (j % i == 0) {
                 break;
@@ -16,6 +16,7 @@ int main() {
              }
             cout<<j;
     
+    }
     }
     return 0;
 }
