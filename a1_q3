@@ -5,7 +5,7 @@ int main() {
     int t,n,i,j;
     cout<<"enter no of times to check";
     cin>>t;
-    for (j=1,j<=t, j++){
+    for (j=1;j<=t; j++){
         cout<<"enter no";
         cin>>n;
         for (i = 2; i <= n/2; i++) {
