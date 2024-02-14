@@ -1,0 +1,10 @@
+int findFrequency(vector<int> v, int x){
+    // Your code here
+    int freq=0;
+    for(int element:v){
+        if(element==x){
+            freq++;
+        }
+    }
+    return freq;
+}
